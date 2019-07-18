@@ -7,5 +7,15 @@
 <body>
 <h1>실험용 페이지 입니다.</h1>
 
+<h2>다음은 분실물 목록 입니다.</h2>
+
+
+{% for lost in data %}
+<p>분실물 이름 : {{ lost.itemName }}</p>
+<p>분실 장소 : {{ lost.lostPlace }}</p>
+{% endfor %}
+
+
+
 </body>
 </html>

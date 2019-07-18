@@ -26,6 +26,7 @@ SECRET_KEY = '(8#*#3n_3_d!n%$04#n*fd)-yc^d^$wln_+^+tzw8u7abaa8i&'
 DEBUG = True
 
 ALLOWED_HOSTS = [
+    '127.0.0.1',
     'ec2-13-125-244-107.ap-northeast-2.compute.amazonaws.com',
 ]
 
@@ -78,8 +79,12 @@ WSGI_APPLICATION = 'Project.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql', # mysql 엔진 설정
+        'NAME':'findlost', # 데이터베이스 이름
+        'USER':'root', # 데이터베이스 연결시 사용할 유저 이름
+        'PASSWORD':'0000', # 유저 패스워드
+        'HOST':'localhost',
+        'PORT':''
     }
 }
 
