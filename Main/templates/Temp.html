@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>실험용 페이지 입니다.</h1>
+
+<h2>다음은 분실물 목록 입니다.</h2>
+
+
+
+
+{% for item in data %}
+<p>번호 : {{ item.num }}</p>
+<p>관리ID : {{ item.managementID }}</p>
+<p>습득 일자 : {{ item.findYmd }}</p>
+<p>물품명 : {{ item.productName }}</p>
+<p>보관장소 : {{ item.keepPlace }}</p>
+<p>이미지 : {{ item.productImg }}</p>
+
+<p><img src="{{ item.productImg }}" width="250" height="250"/></p>
+<!--<p><img src="https://www.lost112.go.kr/lostnfs/images/uploadImg/20190704/20190704021240924.jpg"/></p>-->
+
+<p>물품상세설명 : {{ item.productDesc }}</p>
+<p>물품분류명 : {{ item.productClass }}</p>
+<p>====================================</p>
+
+{% endfor %}
+
+
+</body>
+</html>
+
+

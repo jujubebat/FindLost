@@ -17,7 +17,7 @@
                     <div class="collapse navbar-collapse navbar-right" id="myNavbar">
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="#banner">분실물 목록</a></li>
-                            <li class=""><a href="#service">최근 분실물</a></li>
+                            <!-- <li class=""><a href="#service">최근 분실물</a></li>-->
                         </ul>
                     </div>
                 </div>
@@ -28,12 +28,60 @@
                 <div class="banner-info">
                     <div class="banner-text text-center">
                         <h1 class="white">분실물을 찾아보세요!</h1>
-                        <p>검색 : </p>
+                        <table cellspacing=1 width=700 border=0>
+                            <tr>
+                                <td><p align=left> 총 분실물 수</p></td>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <table cellspacing=1 width=700 border=1>
+                            <tr>
+                                <td width=100><p align=center>번호</p></td>
+                                <td width=100><p align=center>이름</p></td>
+                                <td width=320><p align=center>제목</p></td>
+                                <td width=100><p align=center>등록일</p></td>
+                            </tr>
+
+                            <ul>
+                                {% for item in items %}
+                                <tr>
+                                    <td width=50><p align=center>{{ item.num }}</p></td>
+                                    <td width=300><p align=center>{{ item.productName }}</p></td>
+                                    <td width=1000><p align=center>{{ item.productDesc }}</p></td>
+                                    <td width=300><p align=center>{{ item.findYmd }}</p></td>
+                                </tr>
+                                {% endfor %}
+                            </ul>
+                        </table>
+
+                        <table width=700>
+                            <tr>
+                                <td><input type=button value="글쓰기"></td>
+                                {% if items.has_previous %}
+                                <a href="?page=1">맨 앞으로 </a>
+                                <a href="?page={{items.previous.page_number}}">이전으로 </a>
+                                {% endif %}
+                                <span>{{items.number}} </span>
+                                <span>/ </span>
+                                <span>{{items.paginator.num_pages}} </span>
+                                {% if items.has_next %}
+                                <a href="?page={{items.next_page_number}}">다음으로 </a>
+                                <a href="?page={{items.paginator.num_pages}}">맨 뒤로</a>
+                                {% endif %}
+
+                                <td><form name=searchf method=post action="/searchWithSubject/">
+                                    <p align=right><input type=text name=searchStr size=50  maxlength=50>
+                                        <input type=submit value="글찾기"></p>
+                                </td>
+                            </tr>
+                        </table>
                         <a href="#contact"></a>
                     </div>
+                    <!--
                     <div class="overlay-detail text-center">
                         <a href="#service"><i class="fa fa-angle-down"></i></a>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>
@@ -41,7 +89,7 @@
 </section>
 <!--/Main banner-->
 
-<!--Latest Losts-->
+<!--Latest Losts
 <section id="service" class="section-padding">
     <div class="container">
         <div class="row">
@@ -92,6 +140,6 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
 <!--/Latest Losts-->
 {% endblock %}

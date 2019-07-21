@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 class LostItems(models.Model):
-    num = models.AutoField(primary_key=True) #주키
+    num = models.AutoField(primary_key=True) #데이터 번호(primary key)
     managementID = models.CharField(db_column='managementID', max_length=100, blank=True, null=True) #관리ID
     findYmd = models.CharField(db_column='findYmd', max_length=100, blank=True, null=True) #습득일자
     productName = models.CharField(db_column='productName', max_length=100, blank=True, null=True) #물품명
