@@ -1,50 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>실험용 페이지 입니다.</h1>
 
-<table cellspacing=1 width=700 border=0>
-    <tr>
-        <td>총 게시물수: </td>
-        <td><p align=right> 페이지:
-        </td>
-    </tr>
-</table>
+<h2>다음은 분실물 목록 입니다.</h2>
 
-<table cellspacing=1 width=700 border=1>
-    <tr>
-        <td width=50><p align=center>번호</p></td>
-        <td width=100><p align=center>이름</p></td>
-        <td width=320><p align=center>제목</p></td>
-        <td width=100><p align=center>등록일</p></td>
-    </tr>
+{% for item in data %}
+<p>번호 : {{ item.num }}</p>
+<p>관리ID : {{ item.managementID }}</p>
+<p>습득 일자 : {{ item.findYmd }}</p>
+<p>물품명 : {{ item.productName }}</p>
+<p>보관장소 : {{ item.keepPlace }}</p>
+<p>이미지 : {{ item.productImg }}</p>
 
-    <ul>
-        {% for item in items %}
-        <tr>
-            <td width=50><p align=center>{{ item.num }}</p></td>
-            <td width=300><p align=center>{{ item.productName }}</p></td>
-            <td width=1000><p align=center>{{ item.productDesc }}</p></td>
-            <td width=300><p align=center>{{ item.findYmd }}</p></td>
-        </tr>
-        {% endfor %}
-    </ul>
-</table>
+<p><img src="{{ item.productImg }}" width="250" height="250"/></p>
+<!--<p><img src="https://www.lost112.go.kr/lostnfs/images/uploadImg/20190704/20190704021240924.jpg"/></p>-->
 
-<table width=700>
-    <tr>
-        <td><input type=button value="글쓰기"></td>
-        {% if items.has_previous %}
-        <a href="?page=1">맨 앞으로 </a>
-        <a href="?page={{items.previous.page_number}}">이전으로 </a>
-        {% endif %}
-        <span>{{items.number}} </span>
-        <span>/ </span>
-        <span>{{items.paginator.num_pages}} </span>
-        {% if items.has_next %}
-        <a href="?page={{items.next_page_number}}">다음으로 </a>
-        <a href="?page={{items.paginator.num_pages}}">맨 뒤로</a>
-        {% endif %}
+<p>물품상세설명 : {{ item.productDesc }}</p>
+<p>물품분류명 : {{ item.productClass }}</p>
+<p>====================================</p>
 
-        <td><form name=searchf method=post action="/searchWithSubject/">
-            <p align=right><input type=text name=searchStr size=50  maxlength=50>
-                <input type=submit value="글찾기"></p>
-        </td>
-    </tr>
-</table>
+{% endfor %}
+
+
+</body>
+</html>
+
+

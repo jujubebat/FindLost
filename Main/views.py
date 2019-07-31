@@ -18,8 +18,5 @@ def ItemDetail(request, pk):
 
 def LabPage(request):
     data = LostItems.objects.all()
-    paginator = Paginator(data,10)
-    page = request.GET.get('page')
-    items = paginator.get_page(page)
-    return render(request, 'LabPage.html', {'items' : items})
+    return render(request, 'LabPage.html', {'data' : data})
 

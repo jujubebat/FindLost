@@ -35,6 +35,7 @@ h1, h2, h3, h4, h5, h6
 }
 a, a:hover, a:focus, a:active{
     outline: none;
+    text-decoration:none;
 }
 
 .section-padding{
@@ -151,7 +152,7 @@ banner
 	min-height: 900px;
 }
 .banner-info{
-	padding-top: 190px;
+	padding-top: 140px;
 }
 .banner-logo img{
 	display: inline-block;
@@ -535,4 +536,6 @@ Custom
 table{
     width:100%;
     margin: auto;
+    table-layout:fixed;
+    word-break:break-all;
 }
