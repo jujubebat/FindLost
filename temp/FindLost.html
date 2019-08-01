@@ -26,19 +26,52 @@
         <div class="container">
             <div class="row">
                 <div class="banner-info">
-                    <div class="banner-text text-center">
-                        <h1 class="white">찾으시는 분실물이 맞나요?</h1>
-                        <p><img src="{{ item.productImg }}" width="450" height="450"/></p>
-                        <!--<p>번호 : {{ item.num }}</p>-->
-                        <!--<p>관리ID : {{ item.managementID }}</p>-->
-                        <h3 class="white"><p>물품명 : {{ item.productName }}</p></h3>
-                        <h3 class="white"><p>습득 일자 : {{ item.findYmd }}</p></h3>
-                        <h3 class="white"><p>보관장소 : {{ item.keepPlace }}</p></h3>
+                    <div class="banner-text text-center" >
+                        <h1 class="white">분실물을 찾아보세요!</h1>
+                        <table cellspacing=1 width=700 border=0>
+                            <tr>
+                                <td><p align=left> 총 분실물 수</p></td>
+                                </td>
+                            </tr>
+                        </table>
+                        <table cellspacing=1 width=700 border=1>
+                            <tr>
+                                <td width=100><p align=center>번호</p></td>
+                                <td width=100><p align=center>이름</p></td>
+                                <td width=320><p align=center>제목</p></td>
+                                <td width=100><p align=center>등록일</p></td>
+                            </tr>
+                            <ul>
+                                {% for item in items %}
+                                <tr>
+                                    <td width=50><a href="{% url 'ItemDetail' pk=item.pk %}" style="color: white"><p align=center>{{ item.num }}</p></a></td>
+                                    <td width=300><p align=center><a href="{% url 'ItemDetail' pk=item.pk %}" style="color: white">{{ item.productName }}</a></p></td>
+                                    <td width=1000><p align=center><a href="{% url 'ItemDetail' pk=item.pk %}" style="color: white">{{ item.productDesc }}</a></p></td>
+                                    <td width=300><p align=center><a href="{% url 'ItemDetail' pk=item.pk %}" style="color: white">{{ item.findYmd }}</a></p></td>
+                                </tr>
+                                {% endfor %}
+                            </ul>
+                        </table>
+                        <table width=700>
+                            <tr>
+                                {% if items.has_previous %}
+                                <a href="?page=1">맨 앞으로 </a>
+                                <a href="?page={{items.previous_page_number}}">이전으로 </a>
+                                {% endif %}
+
+                                <span>{{items.number}} </span>
+                                <span>{{items.previous.page_number}} </span>
+                                <span>/</span>
+                                <span>{{items.paginator.num_pages}} </span>
+
+                                {% if items.has_next %}
+                                <a href="?page={{items.next_page_number}}">다음으로 </a>
+                                <a href="?page={{items.paginator.num_pages}}">맨 뒤로</a>
+                                {% endif %}
+                            </tr>
+                        </table>
+                        <a href="#contact"></a>
                     </div>
-                    <!--
-                    <div class="overlay-detail text-center">
-                        <a href="#service"><i class="fa fa-angle-down"></i></a>
-                    </div>-->
                 </div>
             </div>
         </div>
