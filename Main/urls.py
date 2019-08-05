@@ -5,5 +5,5 @@ urlpatterns = [
     path('', views.HomePage, name='HomePage'),
     path('FindLost', views.FindLost, name='FindLost'),
     path('FindLost/<int:pk>', views.ItemDetail, name='ItemDetail'),
-    path('LabPage', views.LabPage, name='LabPage'),
+    path('LabPage/<int:pk>', views.LabPage, name='LabPage'),
 ]

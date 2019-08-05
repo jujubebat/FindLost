@@ -5,7 +5,7 @@ import pymysql.cursors
 import sys
 from datetime import datetime,timedelta
 
-date=datetime.today() - timedelta(60) #과거 날짜
+date=datetime.today() - timedelta(10) #과거 날짜
 date_s = str(date)
 year = date_s[0:4]
 month = date_s[5:7]
@@ -19,8 +19,8 @@ month = date_s[5:7]
 day = date_s[8:10]
 END_YMD = year+month+day
 
-START_YMD = "20190729"
-END_YMD = "20190731"
+# START_YMD = "20190729"
+# END_YMD = "20190731"
 
 print("\n\n/****************************************/")
 print("    "+START_YMD+"~"+END_YMD+"동안의 데이터 수집")
@@ -57,16 +57,16 @@ num=0
 while 1:
     if num == 0:
         print("습득물 데이터를 받아오는 중입니다...")
-        url = f"http://apis.data.go.kr/1320000/LosfundInfoInqireService/getLosfundInfoAccToClAreaPd?serviceKey=SJ7N8CAqRc%2Bef9sStQLUP%2FSDXFvV1a%2FAjdXX85OVgW5Kf3g2Ch%2FHzunhAnImnmmXMVnp5" \
-            f"yWD8s6bSib04c0ouA%3D%3D&START_YMD={START_YMD}&END_YMD={END_YMD}&numOfRows={numOfRows}&pageNo={pageNo}"  # 습득물
+        url = f"http://apis.data.go.kr/1320000/LosfundInfoInqireService/getLosfundInfoAccToClAreaPd?serviceKey=XkqweN6T4XhKJwYFZTcyVC2BYwqckYugERg6R%2FMu26u96JtR7X8ifsqv5AWZQsHcRAty%2FAYkQf" \
+            f"lO%2FC3SAm5OEw%3D%3D&START_YMD={START_YMD}&END_YMD={END_YMD}&numOfRows={numOfRows}&pageNo={pageNo}"  # 습득물
     elif num == 1:
         print("분실 휴대폰 데이터를 받아오는 중입니다...")
-        url = f"http://apis.data.go.kr/1320000/SearchMoblphonInfoInqireService/getMoblphonAcctoKindAreaPeriodInfo?serviceKey=SJ7N8CAqRc%2Bef9sStQLUP%2FSDXFvV1a%2FAjdXX85OVgW5Kf3g2Ch%2FHzun" \
-            f"hAnImnmmXMVnp5yWD8s6bSib04c0ouA%3D%3D&START_YMD={START_YMD}&END_YMD={END_YMD}&numOfRows={numOfRows}&pageNo={pageNo}"  # 휴대폰
+        url = f"http://apis.data.go.kr/1320000/SearchMoblphonInfoInqireService/getMoblphonAcctoKindAreaPeriodInfo?serviceKey=XkqweN6T4XhKJwYFZTcyVC2BYwqckYugERg6R%2FMu26u96JtR7X8ifsqv5AWZQsH" \
+            f"cRAty%2FAYkQflO%2FC3SAm5OEw%3D%3D&START_YMD={START_YMD}&END_YMD={END_YMD}&numOfRows={numOfRows}&pageNo={pageNo}"  # 휴대폰
     elif num == 2:
         print("습득물(포털기관) 데이터를 받아오는 중입니다...")
-        url = f"http://apis.data.go.kr/1320000/LosPtfundInfoInqireService/getPtLosfundInfoAccToClAreaPd?serviceKey=SJ7N8CAqRc%2Bef9sStQLUP%2FSDXFvV1a%2FAjdXX85OVgW5Kf3g2Ch%2FHzunhAnImnmmXM" \
-            f"Vnp5yWD8s6bSib04c0ouA%3D%3D&START_YMD={START_YMD}&END_YMD={END_YMD}&numOfRows={numOfRows}&pageNo={pageNo}"  # 습득물(포털기관)
+        url = f"http://apis.data.go.kr/1320000/LosPtfundInfoInqireService/getPtLosfundInfoAccToClAreaPd?serviceKey=XkqweN6T4XhKJwYFZTcyVC2BYwqckYugERg6R%2FMu26u96JtR7X8ifsqv5AWZQsHcRAty%2FAY" \
+            f"kQflO%2FC3SAm5OEw%3D%3D&START_YMD={START_YMD}&END_YMD={END_YMD}&numOfRows={numOfRows}&pageNo={pageNo}"  # 습득물(포털기관)
     elif num == 3:
         print("데이터 수집이 완료 되었습니다!!")
         break

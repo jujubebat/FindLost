@@ -6,7 +6,7 @@ def HomePage(request):
     return render(request, 'HomePage.html', {})
 
 def FindLost(request):
-    data = LostItems.objects.all()
+    data = LostItems.objects.all().order_by('-findYmd') #날짜순으로 데이터 가져옴.
     paginator = Paginator(data, 10)
     page = request.GET.get('page')
     items = paginator.get_page(page)
@@ -16,7 +16,7 @@ def ItemDetail(request, pk):
     item = get_object_or_404(LostItems, pk=pk)
     return render(request, 'ItemDetail.html', {'item' : item})
 
-def LabPage(request):
-    data = LostItems.objects.all()
-    return render(request, 'LabPage.html', {'data' : data})
+def LabPage(request, pk):
+    item = get_object_or_404(LostItems, pk=pk)
+    return render(request, 'LabPage.html', {'item' : item})
 

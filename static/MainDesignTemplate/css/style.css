@@ -144,12 +144,12 @@ banner
 #banner{
 	background: url('../img/background.jpg') no-repeat fixed;
 	background-size: cover;
-	min-height: 900px;
+	height: 1200px;
 	position: relative;
 }
 .bg-color{
 	background-color: RGBA(13, 70, 83, 0.78);
-	min-height: 900px;
+	height: 1200px;
 }
 .banner-info{
 	padding-top: 140px;
@@ -533,9 +533,14 @@ footer
 /***************************************
 Custom
 ***************************************/
+
 table{
-    width:100%;
+    width:98%;
     margin: auto;
     table-layout:fixed;
     word-break:break-all;
+    background : teal;
+
 }
+
+opacity:0.4; -moz-opacity:0.;
