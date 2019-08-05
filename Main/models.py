@@ -10,6 +10,7 @@ class LostItems(models.Model):
     productImg = models.CharField(db_column='productImg', max_length=100, blank=True, null=True) #이미지
     productDesc = models.CharField(db_column='productDesc', max_length=200, blank=True, null=True) #물품상세설명
     productClass = models.CharField(db_column='productClass', max_length=100, blank=True, null=True) #물품분류명
+    placeAddress = models.CharField(db_column='placeAddress', max_length=100, blank=True, null=True) #주소
 
 class LostItemsTemp(models.Model):
     num = models.AutoField(primary_key=True) #데이터 번호(primary key)
@@ -20,7 +21,7 @@ class LostItemsTemp(models.Model):
     productImg = models.CharField(db_column='productImg', max_length=100, blank=True, null=True) #이미지
     productDesc = models.CharField(db_column='productDesc', max_length=200, blank=True, null=True) #물품상세설명
     productClass = models.CharField(db_column='productClass', max_length=100, blank=True, null=True) #물품분류명
-
+    placeAddress = models.CharField(db_column='placeAddress', max_length=100, blank=True, null=True)  #주소
 
 
 
