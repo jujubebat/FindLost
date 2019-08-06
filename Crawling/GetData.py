@@ -101,7 +101,7 @@ while 1:
             print("물품상세설명 : " + i["fdSbjt"])
             print("물품분류명 : " + i["prdtClNm"] + "\n")
 
-            sql = "insert into Main_lostitemstemp(managementID, findYmd, productName, keepPlace, productImg, productDesc, productClass) values(%s, %s, %s, %s, %s, %s, %s)"
+            sql = "insert into main_lostitemstemp(managementID, findYmd, productName, keepPlace, productImg, productDesc, productClass) values(%s, %s, %s, %s, %s, %s, %s)"
             cursor.execute(sql, (
                 i["atcId"], i["fdYmd"], i["fdPrdtNm"], i["depPlace"], i["fdFilePathImg"], i["fdSbjt"], i["prdtClNm"]))
             conn.commit()
