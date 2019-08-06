@@ -123,7 +123,7 @@ while 1:
             #
             # else:
             #     pprint("Error Code:" + rescode)
-            # sql = "insert into main_lostitemstemp(managementID, findYmd, productName, keepPlace, productImg, productDesc, productClass, placeAddress) values(%s, %s, %s, %s, %s, %s, %s, %s)"
+            # sql = "insert into Main_lostitemstemp(managementID, findYmd, productName, keepPlace, productImg, productDesc, productClass, placeAddress) values(%s, %s, %s, %s, %s, %s, %s, %s)"
             # cursor.execute(sql, (
             #     i["atcId"], i["fdYmd"], i["fdPrdtNm"], i["depPlace"], i["fdFilePathImg"], i["fdSbjt"], i["prdtClNm"],placeAddress))
             # conn.commit()
