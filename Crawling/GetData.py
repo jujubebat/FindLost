@@ -102,8 +102,7 @@ while 1:
             print("물품분류명 : " + i["prdtClNm"] + "\n")
 
             sql = "insert into main_lostitemstemp(managementID, findYmd, productName, keepPlace, productImg, productDesc, productClass) values(%s, %s, %s, %s, %s, %s, %s)"
-            cursor.execute(sql, (
-                i["atcId"], i["fdYmd"], i["fdPrdtNm"], i["depPlace"], i["fdFilePathImg"], i["fdSbjt"], i["prdtClNm"]))
+            cursor.execute(sql, (i["atcId"], i["fdYmd"], i["fdPrdtNm"], i["depPlace"], i["fdFilePathImg"], i["fdSbjt"], i["prdtClNm"]))
             conn.commit()
 
             # encText = urllib.parse.quote(i["depPlace"]) #보관장소로 지역주소를 알아낸다.
