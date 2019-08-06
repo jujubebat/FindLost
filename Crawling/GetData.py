@@ -48,6 +48,10 @@ sql = "call del()"
 cursor.execute(sql)
 conn.commit()
 
+cursor.execute("SELECT VERSION()")
+data=cursor.fetchone()
+print(data)
+
 numOfData = 0
 numOfRows = 100
 pageNo = 1
