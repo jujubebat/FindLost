@@ -143,7 +143,7 @@ banner
 }
 #banner{
 	background: url('../img/background.jpg') no-repeat fixed;
-	background-size: cover;
+	background-size: auto;
 	height: 1200px;
 	position: relative;
 }

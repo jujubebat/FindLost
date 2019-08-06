@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fe2d604-8085-4a71-9a23-6dbc5804223d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Main/templates/tmp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crawling/tmp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/migrations/0002_auto_20190805_2153.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/templates/ItemDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/Main/templates/ItemDetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crawling/GetData.py" beforeDir="false" afterPath="$PROJECT_DIR$/Crawling/GetData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/MainDesignTemplate/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/MainDesignTemplate/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/개발일지.txt" beforeDir="false" afterPath="$PROJECT_DIR$/개발일지.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +21,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main/templates/HomePage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
+            <state relative-caret-position="561">
               <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
               <folding>
                 <element signature="e#682#722#0" expanded="true" />
@@ -28,61 +31,52 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main/urls.py">
+        <entry file="file://$PROJECT_DIR$/Main/templates/Base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="1456">
+              <caret line="349" lean-forward="true" selection-start-line="349" selection-end-line="349" />
               <folding>
-                <element signature="e#0#28#0" expanded="true" />
+                <element signature="n#script#6;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main/templates/ItemDetail.html">
+        <entry file="file://$PROJECT_DIR$/static/MainDesignTemplate/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="81" selection-start-line="36" selection-start-column="81" selection-end-line="36" selection-end-column="81" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="208">
+              <caret line="140" column="1" lean-forward="true" selection-start-line="140" selection-start-column="1" selection-end-line="140" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main/templates/LabPage.html">
+        <entry file="file://$PROJECT_DIR$/개발일지.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="340">
+              <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main/templates/tmp.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="162" column="13" lean-forward="true" selection-start-line="162" selection-start-column="13" selection-end-line="162" selection-end-column="13" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#td#1;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#td#2;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Crawling/GetData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+            <state relative-caret-position="289">
+              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+              <folding>
+                <element signature="e#75#102#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Crawling/tmp.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="458">
+              <caret line="105" column="23" selection-start-line="105" selection-start-column="12" selection-end-line="105" selection-end-column="23" />
               <folding>
                 <element signature="e#40#67#0" expanded="true" />
               </folding>
@@ -90,46 +84,43 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ReadMe.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
+            <state relative-caret-position="340">
               <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main/models.py">
+        <entry file="file://$PROJECT_DIR$/Project/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main/templates/FindLost.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="73" column="54" selection-start-line="73" selection-start-column="54" selection-end-line="73" selection-end-column="54" />
+            <state relative-caret-position="102">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding>
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" />
-                <element signature="n#style#0;n#a#0;n#td#1;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#td#2;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main/templates/Base.html">
+        <entry file="file://$PROJECT_DIR$/Main/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="349" lean-forward="true" selection-start-line="349" selection-end-line="349" />
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
-                <element signature="n#script#6;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -140,8 +131,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -199,30 +190,31 @@
         <option value="$PROJECT_DIR$/Main/templates/LabPageTmp.html" />
         <option value="$PROJECT_DIR$/Main/templates/Temp.html" />
         <option value="$PROJECT_DIR$/static/css/style.css" />
-        <option value="$PROJECT_DIR$/ReadMe.txt" />
-        <option value="$PROJECT_DIR$/개발일지.txt" />
         <option value="$PROJECT_DIR$/temp/FindLost.html" />
         <option value="$PROJECT_DIR$/static/TableDesignTemplate/css/main.css" />
         <option value="$PROJECT_DIR$/../Python/tmp.py" />
-        <option value="$PROJECT_DIR$/Crawling/GetData.py" />
         <option value="$PROJECT_DIR$/Main/urls.py" />
         <option value="$PROJECT_DIR$/Main/views.py" />
         <option value="$PROJECT_DIR$/Main/templates/LabPage.html" />
         <option value="$PROJECT_DIR$/Main/templates/tmp.html" />
         <option value="$PROJECT_DIR$/Main/templates/FindLost.html" />
         <option value="$PROJECT_DIR$/Main/templates/Base.html" />
-        <option value="$PROJECT_DIR$/static/MainDesignTemplate/css/style.css" />
         <option value="$PROJECT_DIR$/Main/templates/HomePage.html" />
         <option value="$PROJECT_DIR$/Main/models.py" />
         <option value="$PROJECT_DIR$/Main/templates/ItemDetail.html" />
+        <option value="$PROJECT_DIR$/Crawling/tmp.py" />
+        <option value="$PROJECT_DIR$/개발일지.txt" />
+        <option value="$PROJECT_DIR$/static/MainDesignTemplate/css/style.css" />
+        <option value="$PROJECT_DIR$/Crawling/GetData.py" />
+        <option value="$PROJECT_DIR$/ReadMe.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="42" />
+    <option name="x" value="41" />
     <option name="y" value="75" />
     <option name="width" value="2420" />
-    <option name="height" value="1103" />
+    <option name="height" value="1104" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -246,42 +238,6 @@
               <item name="FindLost" type="b2602c69:ProjectViewProjectNode" />
               <item name="FindLost" type="462c0819:PsiDirectoryNode" />
               <item name="Main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FindLost" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FindLost" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FindLost" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FindLost" type="462c0819:PsiDirectoryNode" />
-              <item name="Project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FindLost" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FindLost" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FindLost" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FindLost" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="MainDesignTemplate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FindLost" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FindLost" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="MainDesignTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FindLost" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FindLost" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="MainDesignTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -441,7 +397,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565007848125</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="-분실물 테이블에 지역컬럼 추가&#10;-네이버 검색 api를 활용하여 분실물에 지역 데이터 추가&#10; (크롤링 로직 수정)">
+      <created>1565020860380</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1565020860380</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -457,12 +420,12 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18968935" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18968935" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.11631206" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4680851" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.04255319" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -486,7 +449,8 @@
     <MESSAGE value="-3개의 분실물 api(분실물, 분실물(포털기관), 휴대폰 분실물)를&#10; 활용하여 데이터 베이스에 저장하는 로직 구현&#10;-분실물 데이터를 최신화 해줄 때 두 개의 테이블을 교체하는 방식으로 구현&#10; (ReadMe의 DB 프로시저 참조)&#10;-models.py에 예비테이블(LostItemsTemp) 추가" />
     <MESSAGE value="-크롤링 오류 수정&#10;-표 디자인 추가" />
     <MESSAGE value="-KaKao Mpas API를 활용하여 분실물 보관장소 지도에 표시&#10;(http://apis.map.kakao.com/web/sample/keywordList/)&#10;-FindLost 로고추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="-KaKao Mpas API를 활용하여 분실물 보관장소 지도에 표시&#10;(http://apis.map.kakao.com/web/sample/keywordList/)&#10;-FindLost 로고추가" />
+    <MESSAGE value="-분실물 테이블에 지역컬럼 추가&#10;-네이버 검색 api를 활용하여 분실물에 지역 데이터 추가&#10; (크롤링 로직 수정)" />
+    <option name="LAST_COMMIT_MESSAGE" value="-분실물 테이블에 지역컬럼 추가&#10;-네이버 검색 api를 활용하여 분실물에 지역 데이터 추가&#10; (크롤링 로직 수정)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ex.txt" />
@@ -503,16 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Project/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -552,22 +506,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Crawling/Ex3.py" />
-    <entry file="file://$PROJECT_DIR$/ReadMe.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/TableDesignTemplate_/vendor/jquery/jquery-3.2.1.min.js" />
     <entry file="file://$PROJECT_DIR$/temp/Base.html" />
-    <entry file="file://$PROJECT_DIR$/개발일지.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/TableDesignTemplate_/images/icons/favicon.ico" />
     <entry file="file://$PROJECT_DIR$/static/temp/MainDesignTemplate/js/custom.js" />
     <entry file="file://$PROJECT_DIR$/temp/FindLost.html" />
@@ -608,13 +548,6 @@
     <entry file="file://$PROJECT_DIR$/static/MainDesignTemplate/img/thumb.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/MainDesignTemplate/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="140" column="1" selection-start-line="140" selection-start-column="1" selection-end-line="140" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/MainDesignTemplate/img/logo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -623,16 +556,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/MainDesignTemplate/img/doctor4.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/templates/Base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="349" lean-forward="true" selection-start-line="349" selection-end-line="349" />
-          <folding>
-            <element signature="n#script#6;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Main/templates/FindLost.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -644,40 +567,6 @@
             <element signature="n#style#0;n#a#0;n#td#1;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#td#2;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/templates/HomePage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-          <folding>
-            <element signature="e#682#722#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
@@ -694,7 +583,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Main/templates/LabPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="748">
           <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -704,8 +593,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Main/templates/tmp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="162" column="13" lean-forward="true" selection-start-line="162" selection-start-column="13" selection-end-line="162" selection-end-column="13" />
+        <state relative-caret-position="2754">
+          <caret line="162" column="13" selection-start-line="162" selection-start-column="13" selection-end-line="162" selection-end-column="13" />
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#section#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#td#1;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
@@ -714,13 +603,98 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Main/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/templates/HomePage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+          <folding>
+            <element signature="e#682#722#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/templates/Base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1456">
+          <caret line="349" lean-forward="true" selection-start-line="349" selection-end-line="349" />
+          <folding>
+            <element signature="n#script#6;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/MainDesignTemplate/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="140" column="1" lean-forward="true" selection-start-line="140" selection-start-column="1" selection-end-line="140" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Crawling/GetData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+        <state relative-caret-position="289">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <element signature="e#75#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawling/tmp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="105" column="23" selection-start-line="105" selection-start-column="12" selection-end-line="105" selection-end-column="23" />
           <folding>
             <element signature="e#40#67#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/개발일지.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadMe.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>

@@ -29,3 +29,11 @@
 <19.07.31>
 -크롤링 오류 수정
 -표 디자인 추가
+
+<19.08.06>
+-KaKao Mpas API를 활용하여 분실물 보관장소 지도에 표시
+(http://apis.map.kakao.com/web/sample/keywordList/)
+-FindLost 로고추가
+-분실물 테이블에 지역컬럼 추가
+-네이버 검색 api를 활용하여 분실물에 지역 데이터 추가
+ (크롤링 로직 수정)
