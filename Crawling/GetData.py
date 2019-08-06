@@ -12,7 +12,7 @@ from pprint import pprint
 client_id = " _mXpkXeNdFUrXgflbxUQ"
 client_secret = "a9cXUhU3gv"
 
-date=datetime.today() - timedelta(10) #과거 날짜
+date=datetime.today() - timedelta(30) #과거 날짜
 date_s = str(date)
 year = date_s[0:4]
 month = date_s[5:7]
@@ -26,8 +26,8 @@ month = date_s[5:7]
 day = date_s[8:10]
 END_YMD = year+month+day
 
-START_YMD = "20190801"
-END_YMD = "20190801"
+# START_YMD = "20190801"
+# END_YMD = "20190801"
 
 print("\n\n/****************************************/")
 print("    "+START_YMD+"~"+END_YMD+"동안의 데이터 수집")
